@@ -16,7 +16,6 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { ChevronDown, ChevronUp, MoreHorizontal, Eye } from 'lucide-react';
-import { cn } from '@/lib/utils';
 import { articlesData } from '@/data/articles-data';
 import { Badge } from '@/components/ui/badge';
 import { Skeleton } from '@/components/ui/skeleton';
