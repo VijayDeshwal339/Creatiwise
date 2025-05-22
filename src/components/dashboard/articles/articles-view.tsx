@@ -6,9 +6,6 @@ import { Search } from 'lucide-react';
 
 export function ArticlesView() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [activeTab, setActiveTab] = useState('generated');
-
-  console.log(activeTab);
 
   return (
     <div className="space-y-6">
@@ -16,7 +13,7 @@ export function ArticlesView() {
         <h1 className="text-3xl font-bold tracking-tight text-primary">Articles</h1>
       </div>
 
-      <Tabs defaultValue="generated" className="w-full" onValueChange={setActiveTab}>
+      <Tabs defaultValue="generated" className="w-full">
         <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between md:space-y-0">
           <TabsList className="h-auto flex-wrap justify-start gap-2 bg-transparent p-0">
             <TabsTrigger
