@@ -8,6 +8,8 @@ export function ArticlesView() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTab, setActiveTab] = useState('generated');
 
+  console.log(activeTab);
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
